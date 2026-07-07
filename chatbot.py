@@ -246,7 +246,7 @@ st.markdown('<p class="brand-subtitle">Your sustainable fashion companion ✨</p
 st.markdown('</div>', unsafe_allow_html=True)
 
 # ---------- CHATBOT LOGIC ----------
-GEMINI_API_KEY = "AQ.Ab8RN6IfBGTvrjfjxk0745mHt-eRbUWdX01oi7XhAeDapAEJNA"
+GEMINI_API_KEY = "AQ.Ab8RN6LjyDPQp7v0ypbAoiL-YK97qIkDvGhfp4Dq96sAB20_Og"
 
 
 # Client ko session state mein daal diya taake baar baar recreate ho kar close na ho
