@@ -246,12 +246,12 @@ st.markdown('<p class="brand-subtitle">Your sustainable fashion companion ✨</p
 st.markdown('</div>', unsafe_allow_html=True)
 
 # ---------- CHATBOT LOGIC ----------
-GEMINI_API_KEY = ["API KEY"]
+
 
 
 # Client ko session state mein daal diya taake baar baar recreate ho kar close na ho
 if "gemini_client" not in st.session_state:
-    st.session_state.gemini_client = genai.Client(api_key=GEMINI_API_KEY)
+    st.session_state.gemini_client = genai.Client(api_key=st.secrets["GEMINI_API_KEY"])
 
 SYSTEM_PROMPT = """
 Tum "Rewoor" naam ke ek online resale platform ke chatbot ho.
